@@ -4,6 +4,8 @@ import javax.inject._
 import play.api._
 import play.api.mvc._
 
+var PORT = process.env.PORT || 8000
+
 /**
  * This controller creates an `Action` to handle HTTP requests to the
  * application's home page.
